@@ -8,7 +8,7 @@ from_dir=.
 to_dir=./MykrobeOut
 out_file=summary.tsv
 
-export PATH=/Users/rsieber/code/Mykrobe-predictor/mccortex/bin/:$PATH
+export PATH=$HOME/code/Mykrobe-predictor/mccortex/bin/:$PATH
 
 if [ $? != 0 ]; then
 	echo $usage
@@ -151,7 +151,7 @@ fi
 
 # Summarize all .json files into one .tsv
 if $summarize; then
-	python /Users/rsieber/code/my/py/json_summary_genotype.py -o $to_dir/$out_file -i $to_dir
+	python $HOME/code/my/py/json_summary_genotype.py -o $to_dir/$out_file -i $to_dir
 	echo "Make sure to consider coverage when interpreting results."
 fi
 exit 0;
