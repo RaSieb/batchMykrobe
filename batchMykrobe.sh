@@ -143,6 +143,6 @@ ls $from_dir/*.fastq.gz | awk -F '_R[12]' '{print $1}' | xargs basename | uniq |
 
 # Summarize all .json files into one .tsv
 if $summarize; then
-	python /Users/rsieber/code/my/py/json_summary.py -o $to_dir/$out_file -i $to_dir
+	python $HOME/code/my/py/json_summary.py -o $to_dir/$out_file -i $to_dir
 fi
 exit 0;
