@@ -13,4 +13,5 @@ batchMykrobe.sh will allow to run the command `mykrobe genotype` on a set of sam
 ## json_summary_genotype.py
 Summarizes the outputs from batchMykrobe_genotype.sh.
 
-All scripts depend on a working installation of the commandline version of [Mykrobe Predictor](https://github.com/iqbal-lab/Mykrobe-predictor) with its dependencies on MacOSX. 
+## Dependencies
+All scripts are tested on macOSX. Adjustments might be necessary for adapting them to linux. They depend on a working installation of the commandline version of [Mykrobe Predictor](https://github.com/iqbal-lab/Mykrobe-predictor) with its dependencies. Bash scripts also depend on a working installation of [GNU parallel](https://www.gnu.org/software/parallel/)
