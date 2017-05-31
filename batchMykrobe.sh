@@ -6,7 +6,7 @@ from_dir=.
 to_dir=./MykrobeOut
 out_file=summary.tsv
 
-export PATH=/Users/rsieber/code/Mykrobe-predictor/mccortex/bin/:$PATH
+export PATH=$HOME/code/Mykrobe-predictor/mccortex/bin/:$PATH
 
 if [ $? != 0 ]
 then
